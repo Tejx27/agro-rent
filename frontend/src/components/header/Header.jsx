@@ -3,10 +3,12 @@ import logop from "../../assets/logop.png";
 import "./header.css";
 
 const Header = ({ onSearch }) => {
-  const [searchTerm, setSearchTerm] = useState("");
+  const [searchTerm, setSearchTerm] = useState('');
 
   const handleInputChange = (event) => {
     setSearchTerm(event.target.value);
+    onSearch(searchTerm);
+    console.log(searchTerm);
   };
 
   const handleSearch = (event) => {

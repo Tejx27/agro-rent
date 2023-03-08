@@ -12,10 +12,13 @@ const Login = () => {
   };
   const usernameInputHandler = (event) => {
     setInput(event.target.value);
+    console.log(input);
   };
 
   const passwordInputHandler = (event) => {
     setPassword(event.target.value);
+   
+    console.log(password);
   };
   const btnSubmitHandler = (event) => {
     console.log(input);

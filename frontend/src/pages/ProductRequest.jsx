@@ -1,6 +1,6 @@
 import React from "react";
 import { Header, Sidebar } from "../components";
-import "./Request.css";
+import "./ProductRequest.css";
 import ToolImage from "../assets/Tool.png";
 const Request = () => {
   return (

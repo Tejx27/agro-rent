@@ -36,6 +36,7 @@ textarea {
 input,
 textarea {
   font-family: Arial, sans-serif;
+  font-size: large;
 }
 
 .form-control {
