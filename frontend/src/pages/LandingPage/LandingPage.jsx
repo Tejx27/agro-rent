@@ -1,30 +1,30 @@
 import React from "react";
 import { Header, Sidebar } from "../../components";
 import "./landingpage.css";
-// import tools from "../../tool-data.json";
-const tools = [
-  {
-    "id": 1,
-    "name": "Hand Trowel",
-    "category": "Hand Tools",
-    "price": "$10",
-    "description": "A small handheld tool used for digging, planting, and transplanting small plants."
-  },
-  {
-    "id": 2,
-    "name": "Pruning Shears",
-    "category": "Hand Tools",
-    "price": "$20",
-    "description": "A tool used for cutting and trimming plants, shrubs, and small tree branches."
-  },
-  {
-    "id": 3,
-    "name": "Hoe",
-    "category": "Garden Tools",
-    "price": "$15",
-    "description": "A tool with a flat blade used for breaking up soil and removing weeds."
-  }
-];
+import tools from "../../tool-data.json";
+// const tools = [
+//   {
+//     "id": 1,
+//     "name": "Hand Trowel",
+//     "category": "Hand Tools",
+//     "price": "$10",
+//     "description": "A small handheld tool used for digging, planting, and transplanting small plants."
+//   },
+//   {
+//     "id": 2,
+//     "name": "Pruning Shears",
+//     "category": "Hand Tools",
+//     "price": "$20",
+//     "description": "A tool used for cutting and trimming plants, shrubs, and small tree branches."
+//   },
+//   {
+//     "id": 3,
+//     "name": "Hoe",
+//     "category": "Garden Tools",
+//     "price": "$15",
+//     "description": "A tool with a flat blade used for breaking up soil and removing weeds."
+//   }
+// ];
 const LandingPage = () => {
   
   return (

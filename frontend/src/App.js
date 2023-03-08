@@ -1,11 +1,14 @@
-// import LandingPage from "./pages/LandingPage/LandingPage";
+import LandingPage from "./pages/LandingPage/LandingPage";
 
-import Request from "./pages/Request";
+// import AddOnRent from "./pages/AddOnRent";
+
+// import Request from "./pages/Request";
 function App() {
   return (
     <div className="App">
-      {/* <LandingPage/> */}
-      <Request />
+      <LandingPage/>
+      {/* <Request /> */}
+      {/* <AddOnRent /> */}
     </div>
   );
 }
